@@ -1,0 +1,46 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, minimum-scale=1')
+        title YeeOfficer game development - Welcome!
+        link(rel='stylesheet', type='text/css', href='webfonts.css')
+        link(rel='stylesheet', type='text/css', href='index.css')
+    body
+        h1 YeeOfficer - Music mixed with Unity coding
+        .about-me
+            p   You know that saying - "never mix business with pleasure"? That's <strong>exactly</strong> what I do.
+        main
+            section.unity-coding
+                h2 Working with coffee cup in hand
+                p Have you ever been fascinated by the old space shooter-genre games which were popular back in the 90s? Computers may progress but our passion and nostalgic feelings stay forever.
+                p I produce tutorials for you all to make that things yourselves. The more people get educated, the better.
+            section.youtube-latest
+                h2 The latest video from my channel
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                <iframe class="latestVideoEmbed" vnum='0' cid="UCBTnza6RHvA1wGMbIYa0LRw" width="600" height="340" frameborder="0" allowfullscreen></iframe>
+                <script src="FetchYTVideo.js"></script>
+            section.music
+                h2 Of music and basses
+                p In my spare time I make electronic music, whic is entirely coryright-free. A good game needs a good track, even the simplest one.
+                p Let me tell, it's not as easy as it sounds. A simplest bit can take hours if not days to compose, but it is rewarding.
+            h3 Follow me on:
+            section.social-contacts
+                a(href="https://soundcloud.com/chadderbox-music")
+                    button.social-link.sc
+                        .picture-swap
+                            img(src="sc.png" alt="" class="front-image")
+                            img(src="sc--white.png" alt="" class="back-image")
+                        span SoundCloud
+                a(href="https://chadderbox.itch.io")
+                    button.social-link.itchio
+                        .picture-swap
+                            img(src="itchio.png" alt="" class="front-image")
+                            img(src="itchio--white.png" alt="" class="back-image")
+                        span itch.io
+                a(href="https://www.youtube.com/channel/UCBTnza6RHvA1wGMbIYa0LRw")
+                    button.social-link.yt
+                        .picture-swap
+                            img(src="yt.png" alt="" class="front-image")
+                            img(src="yt--white.png" alt="" class="back-image")
+                        span YouTube
