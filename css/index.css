@@ -1,0 +1,205 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Exo', Verdana, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  text-align: center;
+  margin: 0;
+  padding: 2%;
+}
+
+h1:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 80px;
+  background-color: black;
+  margin: 15px auto 0;
+}
+
+h2, h3 {
+  padding-top: 20px;
+  font-family: 'Exo', Verdana, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 0;
+  padding: 1%;
+}
+
+h2:after, h3:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 80px;
+  background-color: white;
+  margin: 15px auto 0;
+}
+
+.about-me {
+  margin-bottom: 30px;
+}
+
+.unity-coding {
+  background: black url("../images/Coffee-section.jpg") no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.music {
+  background: black url("../images/Music-section.png") no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.youtube-latest {
+  background: black url("../images/Coding.jpeg") no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.youtube-latest iframe {
+  margin: 0 auto;
+}
+
+section {
+  width: 85%;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Lato', Verdana, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.about-me p {
+  font-size: 18px;
+}
+
+.social-contacts {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 40%;
+}
+
+.social-contacts .social-link {
+  background-color: lightgrey;
+  width: auto;
+  min-width: 180px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  -webkit-transform: skewX(155deg);
+          transform: skewX(155deg);
+  cursor: pointer;
+}
+
+.social-contacts .picture-swap {
+  position: relative;
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.social-contacts .picture-swap img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 24px;
+  height: 24px;
+  -webkit-transform: skewX(-155deg);
+          transform: skewX(-155deg);
+}
+
+.social-contacts .picture-swap .front-image {
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.social-contacts span {
+  font-size: 14px;
+  font-weight: bold;
+  -webkit-transform: skewX(-155deg);
+          transform: skewX(-155deg);
+}
+
+.social-contacts .picture-swap .back-image {
+  opacity: 0;
+}
+
+.social-contacts .social-link:hover .front-image {
+  opacity: 0;
+}
+
+.social-contacts .social-link:hover .back-image {
+  opacity: 1;
+}
+
+.social-contacts .sc:hover {
+  background-color: orange;
+}
+
+.social-contacts .itchio:hover {
+  background-color: black;
+}
+
+.social-contacts .yt:hover {
+  background-color: red;
+}
+
+.social-contacts .itchio:hover span, .social-contacts .sc:hover span, .social-contacts .yt:hover span {
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */
